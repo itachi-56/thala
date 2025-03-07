@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="icon" type="image/png" href="./2344132.png">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <h1 class="font-sans text-center mb-20">SAMPLE CALCULATOR:</h1>
+</head>
+<body class=" relative top-40 right-30" id="hlo">
+  <div  id="hlo" class="  border solid 200px border-black w-200 h-140 mt-100px ml-200 center  rounded-2xl">
+    <input id="all" class="border solid 2px black ml-60 mt-10 text-center border-gray-300 focus:border-blue-500 focus:outline-none p-2 rounded text-sky-500 " readonly >
+     <div id="btn" class="grid grid-cols-4 gap-2 mt-20 ml-10 text-center ">
+          <button  class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"  onclick="show('1')">1</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer" onclick="show('2')">2</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer" onclick="show('3')">3</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"  onclick="show('4')">4</button>
+          <button  class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer" onclick="show('5')">5</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('6')">6</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('7')">7</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('8')">8</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('9')">9</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('0')">0</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('/')">/</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('+')">+</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('-')">-</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 hover:bg-white  cursor-pointer"onclick="show('*')">*</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 bg-yellow-200 hover:bg-red-500  cursor-pointer animate-bounce"onclick="cler()">C</button>
+          <button class="border 2px solid black h-10 w-10 ml-2 bg-yellow-200 hover:bg-green-500  cursor-pointer animate-bounce"onclick="cal()">R</button>
+          <button onmouseover='changeColor()' onmouseleave=" move()" class="border 2px solid black h-10 w-100 ml-2 bg-yellow-200 hover:bg-green-500  cursor-pointer m-30 ml-23">Change Color !</button>
+        </div>
+  </div>
+  <script src="sam.js" >
+    
+  </script>
+</body>
+</html>
