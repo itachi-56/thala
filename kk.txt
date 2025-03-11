@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-its and edited file
-=======
-hello i am human.i am coming from earth
 
->>>>>>> king
+its and edited file
+
